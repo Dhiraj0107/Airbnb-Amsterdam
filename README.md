@@ -4,6 +4,9 @@
 
 ##### Data Source: https://www.kaggle.com/datasets/piterfm/tokyo-2020-olympics
 
+#### Data Model for Tokyo Olympics 2020
+
+![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/98f6625f-cf37-458b-a416-bda375dc1a65)
 
 
 #### Created S3 bucket and loaded the data from local to S3 using Python (Mention file name------------):
