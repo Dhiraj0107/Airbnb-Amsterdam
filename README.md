@@ -74,3 +74,10 @@
 
 ![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/93fa2a56-6531-4baa-8ef8-e7aeb9e4b7e8)
 
+
+##### dimCountry table:
+
+![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/1e987a4b-a21a-4950-8ab2-52ce06c4898c)
+
+![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/7bb8ad62-1004-487e-bc93-9424afd6af72)
+
