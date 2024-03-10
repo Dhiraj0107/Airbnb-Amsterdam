@@ -87,5 +87,6 @@
 
 ![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/cc016df3-962b-4271-b3a1-9b1129da2471)
 
+##### dimCoaches, dimMedals_Totals, dimMedals, dimTechnical_Officials tables:
 
-
+![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/86ee2d85-6d77-4ed4-a474-a1ced7bc53f2)
