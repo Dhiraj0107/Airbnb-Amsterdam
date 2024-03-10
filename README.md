@@ -66,6 +66,7 @@
 
 #### Created fact and dimension tables as per the above data model:
 
+
 ##### factOlympics table:
 
 ![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/98e4bd6f-4b03-4309-a8e8-99e18aba4eaf)
@@ -74,10 +75,17 @@
 
 ![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/93fa2a56-6531-4baa-8ef8-e7aeb9e4b7e8)
 
-
 ##### dimCountry table:
 
 ![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/1e987a4b-a21a-4950-8ab2-52ce06c4898c)
 
 ![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/7bb8ad62-1004-487e-bc93-9424afd6af72)
+
+##### dimAthletes table:
+
+![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/86abf820-607f-4a6f-8805-511642a16b9b)
+
+![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/cc016df3-962b-4271-b3a1-9b1129da2471)
+
+
 
