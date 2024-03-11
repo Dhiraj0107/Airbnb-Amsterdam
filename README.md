@@ -128,7 +128,7 @@
 
 ## Acknowledgments and Lessons Learned
 
-During the development of this project, I encountered challenges and made mistakes, one of which was not adding foreign key in the Country table. Unfortunately, due to exceeding S3 limits, I'm unable to make corrections without incurring additional costs.
+During the development of this project, I encountered challenges and made mistakes, one of which was not adding a foreign key column in the Country table. Unfortunately, due to exceeding S3 limits, I'm unable to make corrections without incurring additional costs.
 
 ### Lessons Learned:
 
