@@ -85,8 +85,18 @@
 
 ![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/86abf820-607f-4a6f-8805-511642a16b9b)
 
+
+
+
 ![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/cc016df3-962b-4271-b3a1-9b1129da2471)
 
 ##### dimCoaches, dimMedals_Totals, dimMedals, dimTechnical_Officials tables:
 
 ![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/86ee2d85-6d77-4ed4-a474-a1ced7bc53f2)
+
+
+#### Load the data back to S3:
+
+##### dimTechnical_Officials table:
+
+![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/c8e814f7-336b-4c75-b59c-8e6b53c42b6d)
