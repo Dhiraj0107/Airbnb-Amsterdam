@@ -6,7 +6,7 @@
 
 #### Data Model for Tokyo Olympics 2020
 
-![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/56696120-de81-47fb-9243-f7dcf47247e9)
+![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/4843a13e-5da7-4681-97cb-84895ba9e02d)
 
 
 #### Created S3 bucket and loaded the data from local to S3 using Python (Mention file name------------):
