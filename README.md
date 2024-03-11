@@ -120,3 +120,7 @@
 ##### dimCountry table:
 
 ![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/56668114-7099-4882-8801-5ed1943c7f96)
+
+##### factOlympics table:
+
+![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/cc15720c-cee7-4053-8417-2a866a6ae882)
