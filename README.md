@@ -100,3 +100,8 @@
 ##### dimTechnical_Officials table:
 
 ![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/c8e814f7-336b-4c75-b59c-8e6b53c42b6d)
+
+##### dimMedals table:
+
+![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/f7192ec1-d636-457c-9620-9620f40b95d8)
+
