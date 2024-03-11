@@ -108,3 +108,7 @@
 ##### dimMedals_Totals table:
 
 ![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/e48abfdc-727a-4060-b578-0068d29e7b62)
+
+##### dimCoaches table:
+
+![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/f3956e11-456a-4fac-ab1b-31d8aaffe1a7)
