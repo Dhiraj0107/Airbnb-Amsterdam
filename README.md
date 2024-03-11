@@ -116,3 +116,7 @@
 ##### dimAthletes table:
 
 ![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/ad6b4114-c249-4a6f-897b-93071e5cdce1)
+
+##### dimCountry table:
+
+![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/56668114-7099-4882-8801-5ed1943c7f96)
