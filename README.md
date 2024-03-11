@@ -112,3 +112,7 @@
 ##### dimCoaches table:
 
 ![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/f3956e11-456a-4fac-ab1b-31d8aaffe1a7)
+
+##### dimAthletes table:
+
+![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/ad6b4114-c249-4a6f-897b-93071e5cdce1)
