@@ -95,7 +95,7 @@
 ![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/86ee2d85-6d77-4ed4-a474-a1ced7bc53f2)
 
 
-#### Load the data back to S3:
+#### Loaded the data back to S3:
 
 ##### dimTechnical_Officials table:
 
@@ -124,6 +124,55 @@
 ##### factOlympics table:
 
 ![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/cc15720c-cee7-4053-8417-2a866a6ae882)
+
+
+#### Copied the data from S3 to local using the below commands on AWS CLI for analysis and reporting:
+
+aws s3 cp s3://redshift-retrieval-bucket/final-files/ "C:/Users/Dhiraj/Downloads/My Projects/AWS/Datasets_For_Analysis/Technical_Officials/" --recursive
+
+aws s3 cp s3://redshift-retrieval-bucket/Medals/ "C:/Users/Dhiraj/Downloads/My Projects/AWS/Datasets_For_Analysis/Medals/" --recursive
+
+aws s3 cp s3://redshift-retrieval-bucket/Medals_Totals/ "C:/Users/Dhiraj/Downloads/My Projects/AWS/Datasets_For_Analysis/Medals_Totals/" --recursive
+
+aws s3 cp s3://redshift-retrieval-bucket/Coaches/ "C:/Users/Dhiraj/Downloads/My Projects/AWS/Datasets_For_Analysis/Coaches/" --recursive
+
+aws s3 cp s3://redshift-retrieval-bucket/Athletes/ "C:/Users/Dhiraj/Downloads/My Projects/AWS/Datasets_For_Analysis/Athletes/" --recursive
+
+aws s3 cp s3://redshift-retrieval-bucket/Country/ "C:/Users/Dhiraj/Downloads/My Projects/AWS/Datasets_For_Analysis/Country/" --recursive
+
+aws s3 cp s3://redshift-retrieval-bucket/Olympics/ "C:/Users/Dhiraj/Downloads/My Projects/AWS/Datasets_For_Analysis/Olympics/" --recursive
+
+#### Consolidated the data segregated into different files for each table into a single file using the below commands on Windows machine:
+
+copy *.txt* "C:\Users\Dhiraj\Downloads\My Projects\AWS\Consolidated_Datasets_For_Analysis\Technical_Officials\Technical_Officials.csv"
+
+copy *.txt* "C:\Users\Dhiraj\Downloads\My Projects\AWS\Consolidated_Datasets_For_Analysis\Medals\Medals.csv"
+
+copy *.txt* "C:\Users\Dhiraj\Downloads\My Projects\AWS\Consolidated_Datasets_For_Analysis\Medals_Totals\Medals_Totals.csv"
+
+copy *.txt* "C:\Users\Dhiraj\Downloads\My Projects\AWS\Consolidated_Datasets_For_Analysis\Coaches\Coaches.csv"
+
+copy *.txt* "C:\Users\Dhiraj\Downloads\My Projects\AWS\Consolidated_Datasets_For_Analysis\Athletes\Athletes.csv"
+
+copy *.txt* "C:\Users\Dhiraj\Downloads\My Projects\AWS\Consolidated_Datasets_For_Analysis\Country\Country.csv"
+
+copy *.txt* "C:\Users\Dhiraj\Downloads\My Projects\AWS\Consolidated_Datasets_For_Analysis\Olympics\Olympics.csv"
+
+#### Finally, developed a dashboard on Power BI for analysis:
+
+![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/0f1b6e6b-5a8f-45f9-b37d-1d62abf6e1c7)
+
+#### DAX Functions used for developing the dashboard:
+
+Number of Medals Won = count(Medals[country])
+
+Count_Bronze = CALCULATE(COUNT(Medals[country]),Medals[medal_type]="Bronze Medal")
+
+Count_Silver = CALCULATE(COUNT(Medals[country]),Medals[medal_type]="Silver Medal")
+
+Count_Gold = CALCULATE(COUNT(Medals[country]),Medals[medal_type]="Gold Medal")
+
+Birth_Year = IF(FORMAT(Athletes[birth_date],"dd-mm-yyyy") = "Not mentioned", BLANK(), YEAR(Athletes[birth_date]))
 
 
 ## Acknowledgments and Lessons Learned
