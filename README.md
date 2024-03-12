@@ -142,6 +142,7 @@ aws s3 cp s3://redshift-retrieval-bucket/Country/ "C:/Users/Dhiraj/Downloads/My 
 
 aws s3 cp s3://redshift-retrieval-bucket/Olympics/ "C:/Users/Dhiraj/Downloads/My Projects/AWS/Datasets_For_Analysis/Olympics/" --recursive
 
+
 #### Consolidated the data segregated into different files for each table into a single file using the below commands on Windows machine:
 
 copy *.txt* "C:\Users\Dhiraj\Downloads\My Projects\AWS\Consolidated_Datasets_For_Analysis\Technical_Officials\Technical_Officials.csv"
@@ -157,6 +158,7 @@ copy *.txt* "C:\Users\Dhiraj\Downloads\My Projects\AWS\Consolidated_Datasets_For
 copy *.txt* "C:\Users\Dhiraj\Downloads\My Projects\AWS\Consolidated_Datasets_For_Analysis\Country\Country.csv"
 
 copy *.txt* "C:\Users\Dhiraj\Downloads\My Projects\AWS\Consolidated_Datasets_For_Analysis\Olympics\Olympics.csv"
+
 
 #### Finally, developed a dashboard on Power BI for analysis:
 
