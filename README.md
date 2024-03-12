@@ -9,7 +9,7 @@
 ![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/4843a13e-5da7-4681-97cb-84895ba9e02d)
 
 
-#### Created S3 bucket and loaded the data from local to S3 using Python (Mention file name------------):
+#### Created S3 bucket and loaded the data from local to S3 using Python (AWS-Project.ipynb):
 
 ![image](https://github.com/Dhiraj0107/Airbnb-Amsterdam/assets/118677714/b5f115d9-6662-47e1-b27d-08a269e1e83c)
 
@@ -21,7 +21,7 @@
 ![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/2efd2c5a-ffb6-4c8d-a3e0-a0eca0d22b2e)
 
 
-#### Next, performed ETL on the data using Python (Mention file name------------) and loaded the cleaned tables back to S3:
+#### Next, performed ETL on the data using Python (AWS-Project.ipynb) and loaded the cleaned tables back to S3:
 
 ![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/1c107a77-1af1-47c3-9611-311740d9570b)
 
@@ -84,9 +84,6 @@
 ##### dimAthletes table:
 
 ![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/86abf820-607f-4a6f-8805-511642a16b9b)
-
-
-
 
 ![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/cc016df3-962b-4271-b3a1-9b1129da2471)
 
