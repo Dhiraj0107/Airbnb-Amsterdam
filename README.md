@@ -174,6 +174,9 @@ Count_Gold = CALCULATE(COUNT(Medals[country]),Medals[medal_type]="Gold Medal")
 Birth_Year = IF(FORMAT(Athletes[birth_date],"dd-mm-yyyy") = "Not mentioned", BLANK(), YEAR(Athletes[birth_date]))
 
 
+
+
+
 ## Technologies used:
 
 ### AWS Services:
@@ -191,6 +194,10 @@ Birth_Year = IF(FORMAT(Athletes[birth_date],"dd-mm-yyyy") = "Not mentioned", BLA
 ### Data Visualization:
 
 - Power BI
+
+
+
+
 
 ## Acknowledgments and Lessons Learned
 
