@@ -26,7 +26,7 @@ This comprehensive end-to-end data engineering project revolves around the Tokyo
 ![image](https://github.com/Dhiraj0107/tokyo-olympics/assets/118677714/1c107a77-1af1-47c3-9611-311740d9570b)
 
 
-#### Connected to Redshift and created and loaded data to it using the below queries:
+#### Connected to Redshift Serverless and created and loaded data to it using the below queries:
 
 
 ##### Athletes table:
