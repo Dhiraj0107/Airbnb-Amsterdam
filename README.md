@@ -1,6 +1,6 @@
 # Tokyo Olympics
 
-This comprehensive end-to-end data engineering project revolves around the Tokyo Olympics dataset, showcasing a data pipeline executed on the AWS cloud. Beginning with data loading into Amazon S3 using boto3, the process includes Glue Crawler and Athena integration for automated table definitions and querying. Further stages involve data extraction to local systems for cleaning with Pandas, storage in Redshift, and subsequent extraction back to S3. The project also encompasses consolidation of data files, and the creation of dimension and fact tables according to the below model using SQL. The finale involves a dynamic Power BI dashboard, employing DAX functions for visualization.
+This comprehensive end-to-end data engineering project revolves around the Tokyo Olympics dataset, showcasing a data pipeline executed on the AWS cloud. Beginning with loading data into Amazon S3 using boto3, the process includes Glue Crawler and Athena integration for automated table definitions and querying. Further stages involve data extraction to the local system for cleaning with Pandas, storage in Redshift, and subsequent extraction back to S3. The project also encompasses consolidation of data files, and the creation of dimension and fact tables according to the below model using SQL. The finale involves a dynamic Power BI dashboard, employing DAX functions for visualization.
 
 ##### Data Source: https://www.kaggle.com/datasets/piterfm/tokyo-2020-olympics
 
