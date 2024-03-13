@@ -1,6 +1,6 @@
 # Tokyo Olympics
 
-This comprehensive end-to-end data engineering project revolves around the Tokyo Olympics dataset, showcasing a data pipeline executed on the AWS cloud. Beginning with loading data into Amazon S3 using boto3, the process includes Glue Crawler and Athena integration for automated table definitions and querying. Further stages involve data extraction to the local system for cleaning with Pandas, storage in Redshift for the creation of dimension and fact tables according to the below model using SQL, and subsequent extraction back to S3. The project also encompasses consolidation of data files. The finale involves a dynamic Power BI dashboard, employing DAX functions for visualization.
+This comprehensive end-to-end data engineering project revolves around the Tokyo Olympics dataset, showcasing a data pipeline executed on the AWS cloud. Beginning with loading data into Amazon S3 using boto3, the process includes Glue Crawler and Athena integration for automated table definitions and querying. Further stages involve data extraction to the local system for cleaning with Pandas, storage in Redshift for the creation of dimension and fact tables according to the below model using SQL, subsequent extraction back to S3, and loading data to the local system using AWS CLI. The project also encompasses the consolidation of data segregated into different files for each table into a single file on the Windows command prompt. The finale involves a dynamic Power BI dashboard, employing DAX functions for visualization.
 
 ##### Data Source: https://www.kaggle.com/datasets/piterfm/tokyo-2020-olympics
 
@@ -173,6 +173,24 @@ Count_Gold = CALCULATE(COUNT(Medals[country]),Medals[medal_type]="Gold Medal")
 
 Birth_Year = IF(FORMAT(Athletes[birth_date],"dd-mm-yyyy") = "Not mentioned", BLANK(), YEAR(Athletes[birth_date]))
 
+
+## Technologies used:
+
+### AWS Services:
+
+- Amazon S3
+- AWS Glue
+- Amazon Athena
+- Amazon Redshift
+
+### Python Libraries:
+
+- boto3
+- pandas
+
+### Data Visualization:
+
+- Power BI
 
 ## Acknowledgments and Lessons Learned
 
